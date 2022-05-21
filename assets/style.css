@@ -1,0 +1,15 @@
+.calculator{
+    background-color: chocolate;
+  position: absolute;
+  height: 30%;
+  width: 20%;
+  margin-top: 10vh;
+  left: 50%;
+}
+.buttons{
+    background-color: black;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    margin-top: 30%;
+}
