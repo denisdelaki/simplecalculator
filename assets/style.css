@@ -1,15 +1,61 @@
 .calculator{
     background-color: chocolate;
   position: absolute;
-  height: 30%;
-  width: 20%;
+  height: 50%;
+  width: 40%;
   margin-top: 10vh;
   left: 50%;
+  display: flex;
 }
 .buttons{
     background-color: black;
     position: absolute;
-    height: 70%;
+    height: 26vh;
+    width: 37vw;
+    padding: 20px;
+    margin-top: 25%;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.numbers{
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+    margin-right: 30px;
+       
+}
+.operators{
+    height: 100%;
+    width: 50%;
+    margin: 5px;
+     margin-left: 30px;
+     
+}
+.numbers > button{
+    height: 32%;
+    width: 32%;
+    padding: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    font-size: 50px;
+    align-items: center;
+} 
+.operators > button{
+    height: 32%;
+    width: 32%;
+    padding: 5%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    font-size: 50px;
+    align-items: center;
+}
+.screen{
+    background-color: white;
+    height: 15vh;
     width: 100%;
-    margin-top: 30%;
+    margin: 20px;
+    
 }
